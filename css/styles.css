@@ -21,7 +21,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Menu section */
+/* Menu sections */
 .menu-section {
     background-color: #eeeeee;
     padding: 25px;
@@ -44,6 +44,7 @@ h1 {
 
 /* Mobile navigation */
 @media (max-width: 767px) {
+
     .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
