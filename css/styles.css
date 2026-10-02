@@ -1,11 +1,9 @@
-/* General page styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333333;
 }
 
-/* Navbar */
 .navbar {
     border-radius: 0;
     margin-bottom: 30px;
@@ -16,16 +14,14 @@ body {
     font-weight: bold;
 }
 
-/* Main heading */
 h1 {
     margin-bottom: 30px;
 }
 
-/* Menu sections */
 .menu-section {
     background-color: #eeeeee;
     padding: 25px;
-    margin-bottom: 30px;
+    margin: 0 15px 30px 15px;
     min-height: 1000px;
     border: 1px solid #cccccc;
 }
@@ -42,7 +38,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Mobile navigation */
 @media (max-width: 767px) {
 
     .navbar-nav {
@@ -55,8 +50,4 @@ h1 {
         border-top: 1px solid #dddddd;
     }
 
-    .menu-section {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
 }
